@@ -2,7 +2,7 @@
   <div class="container">
       <div class="row">
           <div class="col-12 text-center">
-              home
+              blog
           </div>
       </div>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: "HomeComponent",
+    name: "BlogComponent",
 }
 </script>
 
