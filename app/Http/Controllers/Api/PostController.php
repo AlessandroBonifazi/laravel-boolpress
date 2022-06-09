@@ -17,8 +17,8 @@ class PostController extends Controller
     {
         //
         $posts = Post::paginate(1);
-        $results = ['result'=>$posts, 'success'=>true];
-        return response()->json($results);
+        $result = ['result'=>$posts, 'success'=>true];
+        return response()->json($result);
     }
 
     /**
